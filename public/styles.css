@@ -1,0 +1,421 @@
+/* /* @import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap");
+@import url("https://unpkg.com/aos@2.3.1/dist/aos.css"); */
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Work Sans";
+  background-color: #121210;
+}
+
+nav.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 65vh;
+  padding-top: 2.5vh;
+  padding-bottom: 2.5vh;
+  background-color: rgb(77, 77, 77);
+}
+
+nav.navbar div.site-title {
+  display: flex;
+  flex-direction: row;
+}
+
+nav.navbar div.site-title a {
+  text-decoration: none;
+}
+
+nav.navbar div.site-title a h1 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: white;
+}
+
+nav.navbar ul {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  align-items: center;
+}
+nav.navbar li {
+  list-style-type: none;
+  margin-left: 5px;
+}
+
+nav.navbar li a {
+  color: white;
+  font-weight: 600;
+}
+
+nav.navbar li a:hover {
+  text-decoration: underline;
+  color: red;
+
+}
+
+ nav.navbar div.socials {
+  display: flex;
+  gap: 2vh;
+}
+
+div.content {
+  margin-left: 30vh;
+  margin-right: 30vh;
+}
+
+div.content h2 {
+  color: white;
+}
+
+div.logo {
+  margin-bottom: 30px;
+}
+div.logo img#nisa {
+  margin-left: 70px;
+  margin-top: 30px;
+  width: 110px;
+}
+div.logo img#spike {
+  width: 250px;
+}
+hr {
+  width: 100%; 
+  max-width: 95%; 
+  border: 0.5px solid #c1bbbb; 
+  margin: 20px; 
+  align-self: center;
+}
+div.banner, div.banner2, div.banner3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+div.banner4{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+div.social a{
+  font-size: 25px;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  color: white;
+  background-color: rgb(57, 57, 57);
+}
+div.end{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+button.btn-danger {
+  text-align: center;
+  background-color: rgb(247, 101, 85);
+  padding: 10px 20px;
+  color: white;
+  cursor: pointer;
+  font-size: 12px;
+  border: none;
+}
+button.btn-danger:hover {
+  background-color: darkred;
+}
+div.btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+} */
+
+
+div.games {
+  background-color: #343a40;
+  padding-left: 6vh;
+  padding-right: 6vh;
+  padding-top: 10vh;
+  padding-bottom: 18vh;
+}
+
+div.games div.image {
+  width: 616px;
+  height: 353px;
+  background-image: url(assets/capsule_616x353.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+div.games a {
+  color: #e03c34;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+div.about {
+  background-color: #2b2b2b;
+  padding-left: 6vh;
+  padding-right: 6vh;
+  padding-top: 12vh;
+  padding-bottom: 26vh;
+}
+
+div.about > div.container {
+  display: flex;
+}
+
+div.about > div.container > div.left {
+  margin-right: 25vh;
+}
+
+div.about div.container > div.right div.contact {
+  display: flex;
+  margin-right: 30vh;
+}
+
+div.about div.container div.left span.title {
+  font-size: 6vh;
+  font-weight: bold;
+  font-style: italic;
+  color: white;
+}
+
+div.about div.container div.right span.title {
+  font-size: 6vh;
+  font-weight: bold;
+  font-style: italic;
+  color: white;
+}
+
+div.about div.container div.left p {
+  margin-top: 4vh;
+  font-size: 18px;
+  color: white;
+}
+
+div.about div.container div.right div.contact {
+  margin-top: 4vh;
+}
+
+div.about div.container div.right div.contact div.left {
+  display: flex;
+  flex-direction: column;
+  margin-right: 4vh;
+  color: white;
+}
+
+div.about div.container div.right div.contact div.left span {
+  font-size: 17px;
+}
+
+div.about div.container div.right div.contact div.right {
+  display: flex;
+  flex-direction: column;
+}
+
+div.about div.container div.right div.contact div.right span {
+  font-size: 17px;
+  color: white;
+  font-style: italic;
+}
+
+div.about div.container div.right div.contact div.right a {
+  font-size: 17px;
+  color: #e13c33;
+  font-style: italic;
+}
+
+.news {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 46vh;
+}
+
+.single {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #333;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  color: white;
+}
+
+.single:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.snippet {
+  font-size: 1rem;
+  color: white;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #333;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 25vh;
+}
+
+.details h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.details .content {
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+.details .content p {
+  color: white;
+}
+
+.details .delete {
+  padding: 10px 20px;
+  background-color: #ff4d4d;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  text-decoration: none;
+  max-width: 100px;
+  cursor: pointer;
+}
+
+.details .delete:hover {
+  background-color: #e60000;
+}
+
+.content-guidelines {
+  margin-top: 5vh;
+  margin-bottom: 50px;
+}
+
+.content-guidelines span {
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.content-guidelines p {
+  color: white;
+}
+
+footer div.container {
+  padding-left: 7vh;
+  padding-right: 10vh;
+  background-color: black;
+  padding-bottom: 25vh;
+}
+
+footer div.left {
+  float: left;
+  display: flex;
+  flex-direction: column;
+}
+
+footer div.left a {
+  color: #e13c33;
+  font-size: 16px;
+  margin-bottom: 3px;
+}
+
+footer div.left h3 {
+  color: white;
+}
+
+footer div.right {
+  float: right;
+  color: white;
+}
+
+footer div.right h1 {
+  color: white;
+}
+
+.create-blog {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #333;
+}
+
+.create-blog form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.create-blog label {
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+}
+
+.create-blog input[type="text"],
+.create-blog textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+.create-blog textarea {
+  min-height: 150px;
+  resize: vertical;
+}
+
+.create-blog button {
+  padding: 10px 20px;
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.create-blog button:hover {
+  background-color: #e60000;
+} 
+div.end2{
+  text-align: center;
+  color: white;
+  font-size: 10px;
+  gap: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
